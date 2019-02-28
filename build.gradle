@@ -15,9 +15,20 @@ buildscript {
 
 android {
     compileSdkVersion 28
+    buildToolsVersion '28.0.3'
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 28
+    }
+    buildTypes {
+        debug {
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
     }
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
