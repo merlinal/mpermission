@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.merlin.permission">
+
+    <application android:allowBackup="true">
+        <activity
+            android:name="com.merlin.permission.PermissionRequestActivity"
+            android:theme="@style/permission_theme_transparent" />
+    </application>
+
+</manifest>

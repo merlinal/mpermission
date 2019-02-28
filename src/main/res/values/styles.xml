@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="permission_theme_transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="permission_anim_dialog">
+        <item name="android:windowEnterAnimation">@anim/permission_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/permission_dialog_out</item>
+    </style>
+
+</resources>
